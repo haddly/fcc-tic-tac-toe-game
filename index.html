@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en" >
+
+<head>
+  <meta charset="UTF-8">
+  <title>Tic tac toe game</title>
+  
+  
+  <link rel='stylesheet prefetch' href='https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css'>
+<link rel='stylesheet prefetch' href='https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.7/css/bootstrap.min.css'>
+
+      <link rel="stylesheet" href="css/style.css">
+
+  
+</head>
+
+<body>
+
+  <div class="container-fluid">
+<table class="text-center">
+
+    <tr>
+        <td id="a" class="all_tds" onclick="ns_and_cs.tic_tac_toe(this.id)"></td>
+        <td id="b" class="all_tds" onclick="ns_and_cs.tic_tac_toe(this.id)"></td>
+        <td id="c" class="all_tds" onclick="ns_and_cs.tic_tac_toe(this.id)"></td>
+    </tr>
+    <tr>
+        <td id="d" class="all_tds" onclick="ns_and_cs.tic_tac_toe(this.id)"></td>
+        <td id="e" class="all_tds" onclick="ns_and_cs.tic_tac_toe(this.id)"></td>
+        <td id="f" class="all_tds" onclick="ns_and_cs.tic_tac_toe(this.id)"></td>
+    </tr>
+    <tr>
+        <td id="g" class="all_tds" onclick="ns_and_cs.tic_tac_toe(this.id)"></td>
+        <td id="h" class="all_tds" onclick="ns_and_cs.tic_tac_toe(this.id)"></td>
+        <td id="i" class="all_tds" onclick="ns_and_cs.tic_tac_toe(this.id)"></td>
+    </tr>
+</table>
+<div id="nought_n_cross">
+  <a href="#" id="you_start" onclick="ns_and_cs.you_start();"><i id="cross" class="fa fa-times" style="font-size:90px; color:magenta" aria-hidden="true"></i></a>
+<a href="#" id="comp_starts" onclick="ns_and_cs.comp_starts();"><i id="nought" class="fa fa-genderless" style="font-size:90px;color:blue;" aria-hidden="true"></i></a>
+</div>
+<hr />
+  <h1 class="text-primary text-center">Tic Tac Toe Game</h1>
+  <hr />
+  <h2 class="text-info text-center">FreeCodeCamp App</h2>
+  <hr />
+</div><!--container-fluid-->
+  <script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js'></script>
+
+  
+
+    <script  src="js/index.js"></script>
+
+
+
+
+</body>
+
+</html>
